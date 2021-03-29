@@ -1,7 +1,6 @@
 package me.brandonzx3.disableoffhand;
 
 import org.lwjgl.glfw.GLFW;
-import org.spongepowered.asm.launch.platform.IMixinPlatformAgent.AcceptResult;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
@@ -10,13 +9,10 @@ import net.fabricmc.fabric.api.event.player.UseBlockCallback;
 import net.fabricmc.fabric.api.event.player.UseItemCallback;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.options.KeyBinding;
-import net.minecraft.client.sound.Sound;
-import net.minecraft.client.sound.SoundManager.SoundList;
 import net.minecraft.client.util.InputUtil;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.LiteralText;
 import net.minecraft.util.ActionResult;
